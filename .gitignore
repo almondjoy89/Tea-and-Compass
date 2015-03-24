@@ -89,7 +89,7 @@ var tabGroup = Titanium.UI.createTabGroup();
  	var theBearing = _args.heading.magneticHeading; 
  	switch(true) { 
  		case (theBearing >= 0 && theBearing < 23) :
- 			headingText = 'North East'; 
+ 			headingText = 'North'; 
  			break; 
  		case (theBearing >= 23 && theBearing < 68): 
  			headingText = 'North East'; 
